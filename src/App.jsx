@@ -2,7 +2,7 @@ import React, { useEffect, useMemo, useState } from "react";
 import SearchBar from "./components/SearchBar.jsx";
 import WeatherCard from "./components/WeatherCard.jsx";
 import { fetchWeatherByCity } from "./services/weatherService.js";
-
+ 
 const DEFAULT_CITY = "Pune";
 
 function getBackgroundGradient(conditionMain) {
